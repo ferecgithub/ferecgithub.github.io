@@ -2,7 +2,7 @@ $(window).on("load", function() {
     $(".loader .inner").fadeOut(500, function() {
         $(".loader").fadeOut(750);
     });
-
+    
     $(".items").isotope({
         filter: '*',
         animationOptions: {
@@ -21,8 +21,8 @@ $(document).ready(function() {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["Software Developer.", "Java / Android Developer.", "Life-long Student."],
-        typeSpeed: 70,
+    strings: ["Software Developer.", "Java / Android Developer.", "Life-long Student."],
+    typeSpeed: 70,
         loop: true,
         startDelay: 1000,
         showCursor: false
@@ -53,7 +53,7 @@ $(document).ready(function() {
     var skillsTopOffSet = $(".skillsSection").offset().top;
     var statsTopOffSet = $(".statsSection").offset().top;
     var countUpFinished = false;
-
+    
     $(window).scroll(function() {
         if(window.pageYOffset > skillsTopOffSet - $(window).height() + 200) {
             $('.chart').easyPieChart({
