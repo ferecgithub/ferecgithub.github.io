@@ -21,7 +21,7 @@ $(document).ready(function() {
     });
 
     var typed = new Typed(".typed", {
-    strings: ["Software Developer.", "Java / Android Developer.", "Life-long Student."],
+    strings: ["Software Developer.", "Kotlin / Android Developer.", "Life-long Student."],
     typeSpeed: 70,
         loop: true,
         startDelay: 1000,
